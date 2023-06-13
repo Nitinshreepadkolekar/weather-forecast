@@ -1,0 +1,43 @@
+body{
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right,#4A148C,#AB47BC) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+input{
+  width:50vw;
+  height:40px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #1A237E;
+}
+input:hover{
+  background-color: white;
+}
+placeholder{
+  color: #1A237E;
+}
+button{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  width:40vw;
+  height:35px;
+  background-color:#0D47A1;
+  border-radius: 20px;
+  border:none; 
+}
+button:hover{
+  background-image: linear-gradient(to right,#0D47A1,#BBDEFB);
+}
